@@ -1,0 +1,169 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  background-image: url('../../Assets/bg1.png'); /* Update the path accordingly */
+  background-size: 1000px;
+  position: relative;
+}
+
+.card-container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.left-side, .right-side {
+    width: 50%;
+    padding: 40px;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ccc;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 35, 35);
+}
+
+.text-content {
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.text-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #D85207;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-content {
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo-login {
+    margin-bottom: 20px !important;
+    width: 200px !important;
+    height: auto !important;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #D85207;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #D85207;
+    box-shadow: 0 0 5px rgba(126, 47, 54, 0.5);
+    outline: none;
+}
+
+.btn-primary-custom {
+    background: #D85207 !important;
+    border: none;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background: linear-gradient(to right, #feb47b, #D85207);
+    color: white;
+}
+
+.btn-outline-dark-custom {
+    border: 2px solid #D85207;
+    color: #D85207;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark-custom:hover {
+    background: #D85207;
+    color: white;
+    border-color: #D85207;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.left-side {
+    padding: 40px;
+}
+
+.text-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    color: #174A90;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.text-content p:first-of-type {
+    font-weight: bold;
+}
+
+.text-content p:last-of-type {
+    color: #555;
+}
+
+.text-center {
+    text-align: center;
+}

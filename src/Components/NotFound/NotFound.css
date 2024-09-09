@@ -1,0 +1,40 @@
+
+.not-found-container {
+    padding: 40px 20px;
+}
+
+.not-found-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.not-found-title {
+    font-size: 2.5rem;
+    color: #174A90;
+}
+
+.not-found-error {
+    font-size: 5rem;
+}
+
+.not-found-description {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.not-found-button {
+    background-color: #174A90;
+    border-color: #174A90;
+    font-size: 1.25rem;
+    transition: background-color 0.3s;
+    color: aliceblue;
+}
+
+.not-found-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.not-found-text-block {
+    text-align: center;
+}

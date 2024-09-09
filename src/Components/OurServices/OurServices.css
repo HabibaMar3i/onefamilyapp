@@ -1,0 +1,12 @@
+.card-services-title{
+    color: black ;
+}
+.our-services{
+    padding: 60px !important;
+}
+.service-card{
+    background-color: #eaeaea;
+  background-image: url('../../Assets/bg1.png') !important; /* Update the path accordingly */
+  background-size: cover !important;
+  position: relative !important;
+}

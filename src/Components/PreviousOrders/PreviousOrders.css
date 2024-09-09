@@ -1,0 +1,92 @@
+.previous-orders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.previous-orders-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.previous-orders-header {
+    background-color: #174A90;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
+.previous-orders-body {
+    padding: 16px;
+}
+
+.order-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.order-card-body {
+    padding: 16px;
+}
+
+.order-summary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.order-summary h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.order-accordion .MuiAccordionSummary-root {
+    background-color: #f1f1f1;
+}
+
+.feedback-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 24px;
+    padding: 16px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.star-image {
+    margin-right: 8px;
+}
+
+.rating-stars .star {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.rating-stars .selected {
+    color: #D85207;
+}
+
+.feedback-textarea {
+    margin-bottom: 16px;
+}
+
+.feedback-submit {
+    align-self: flex-end;
+}

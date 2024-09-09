@@ -1,0 +1,105 @@
+.aboutus-section-container {
+  padding: 60px 0;
+  margin: 0%;
+  background-color: #fff;
+}
+
+.aboutus-section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutus-images {
+  position: relative;
+  text-align: center;
+}
+
+.aboutus-img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.aboutus-stats {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.aboutus-stats h3 {
+  margin: 0;
+  color: rgb(217, 84, 8);
+  font-size: 2em;
+}
+
+.aboutus-stats p {
+  margin: 0;
+  color: #666;
+  font-size: 1em;
+}
+
+.aboutus-text {
+  text-align: left;
+}
+
+.aboutus-text h6 {
+  color: #d85207;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.aboutus-text h1 {
+  color: #174a90;
+  font-size: 60px;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.aboutus-text p {
+  color: #666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.aboutus-text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.aboutus-text ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: #666;
+}
+
+.aboutus-text ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #d85207;
+  font-size: 1.2em;
+}
+
+.aboutus-text .btn-learnmore {
+  background-color: #d85207 !important;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 100%;
+}
+
+.aboutus-text .btn-learnmore:hover {
+  transform: scale(0.9);
+}

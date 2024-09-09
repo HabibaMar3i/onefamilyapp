@@ -1,0 +1,136 @@
+.subscription-container {
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+  background-image: url('../../Assets/bg1.png'); /* Update the path accordingly */
+  background-size: 1000px;
+  position: relative;
+}
+
+.pricing-header {
+    color: #D85207;
+    font-size: 1.2rem;
+}
+
+.pricing-title {
+    color: #174A90;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.pricing-description {
+    color: #7a7f7f;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+.pricing-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 40px;
+}
+
+.pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.pricing-card h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.pricing-card h2 span {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.pricing-card ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-card ul li i {
+    color: #D85207;
+    margin-right: 10px;
+}
+
+.pricing-button {
+    background-color: #D85207;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pricing-button-free {
+    background-color: #646363;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: not-allowed;
+    transition: background-color 0.3s;
+}
+
+.pricing-button:hover {
+    background-color: #e67d22f8 !important;
+}
+
+.intro-package {
+    background-color: #ebf5fb;
+  background-image: url('../../Assets/bggrey3.png'); /* Update the path accordingly */
+  background-size: 1000px;
+  position: relative;
+}
+
+.intro-package h3, .intro-package ul li {
+    color: rgb(40, 39, 39);
+}
+
+.intro-package h2 {
+    color: black;
+}
+
+.premium-package {
+    background-color: #174A90;
+    
+  background-image: url('../../Assets/bggrey.png'); /* Update the path accordingly */
+  background-size: 1300px;
+  position: relative;
+}
+
+.premium-package h3, .premium-package ul li, .premium-package p {
+    color: white;
+}
+
+.premium-package h2 {
+    color: #e67e22;
+}

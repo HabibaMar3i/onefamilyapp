@@ -1,0 +1,114 @@
+.footer-container {
+    background-color: #0C1B34;
+    color: #ffffff;
+    padding: 40px 20px 10px 20px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    overflow: hidden; /* Ensure child elements don't overflow the container */
+}
+
+.footer-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../Assets/bggrey.png'); /* Update the path accordingly */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+.footer-container .footer-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the pseudo-element */
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #FF7200;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #FF7200;
+}
+
+.logo-footer {
+    margin-left: 30px !important;
+    margin-bottom: 10px !important;
+    width: 280px !important;
+    height: 65px !important;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons .footer-link {
+    font-size: 20px;
+    color: #FF7200;
+    transition: color 0.3s;
+}
+
+.social-icons .footer-link:hover {
+    color: #ffffff;
+    cursor: pointer !important; 
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    border: 1px solid #b3b3b3;
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px 0 0 10px !important;
+}
+
+.btn-subscribe {
+    background-color: #FF7200;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    transition: background-color 0.3s;
+}
+
+.btn-subscribe:hover {
+    background-color: #FF5900;
+}
+
+@media (max-width: 768px) {
+    .footer-container .row {
+        text-align: center;
+    }
+
+    .text-end {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,10 @@
+.contact-us{
+  background-image: url('../../Assets/bg1.png') !important; /* Update the path accordingly */
+  background-size: 1000px !important;
+  position: relative !important;
+}
+
+.our-location{
+  font-size: 22px;
+  font-weight: 600;
+}

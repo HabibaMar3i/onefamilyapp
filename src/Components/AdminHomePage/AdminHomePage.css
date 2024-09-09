@@ -1,0 +1,33 @@
+.admin-home-container {
+    padding: 20px;
+    background-color: #FEF5DC;
+    min-height: 100vh;
+}
+
+.quick-access-card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.quick-access-card:hover {
+    transform: scale(1.05);
+}
+
+.quick-access-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.quick-access-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.quick-access-card .btn {
+    width: 100px;
+}
+

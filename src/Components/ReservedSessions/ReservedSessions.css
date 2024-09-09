@@ -1,0 +1,70 @@
+/* ReservedSessions.css */
+
+/* General Styling */
+.reserved-sessions-body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.reserved-sessions-container {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+/* Headings */
+.reserved-sessions-header {
+    color: #333333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.reserved-sessions-table {
+    background: #ffffff;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.reserved-sessions-table-header {
+    background-color: #063160;
+    color: white;
+}
+
+.reserved-sessions-table-header th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.reserved-sessions-table-body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.reserved-sessions-table-body td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+/* Children List */
+.children-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.loader-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-danger {
+    color: #dc3545;
+}

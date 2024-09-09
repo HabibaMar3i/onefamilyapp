@@ -1,0 +1,47 @@
+.who-we-are-container {
+  padding: 40px;
+  background-color: #FEF5DC;
+  border-radius: 8px;
+  color: #174A90;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #D85207;
+  margin-bottom: 40px;  
+  background-image: url('../../Assets/bg1.png'); /* Update the path accordingly */
+  background-size: cover;
+  position: relative;  
+}
+
+.who-we-are-heading {
+  color: #D85207;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.who-we-are-heading::after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: #D85207;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.who-we-are-text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600 !important;
+}
+
+.who-we-are-text:first-of-type {
+  margin-top: 20px;
+}

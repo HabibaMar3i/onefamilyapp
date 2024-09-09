@@ -1,0 +1,8 @@
+.register-container{
+    
+    padding: 20px;
+    background-image: url('../../Assets/bggrey3.png'); /* Update the path accordingly */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}

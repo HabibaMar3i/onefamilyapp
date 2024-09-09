@@ -1,0 +1,108 @@
+.manage-users-container {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.manage-users-header h2 {
+    font-weight: bold;
+    color: #174A90;
+
+}
+
+.manage-users-header .text-end {
+    display: flex;
+    align-items: center;
+}
+
+.manage-users-select {
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5.5 0 0 1 .708.708l-6 6a.5.5.5 0 0 1-.708 0l-6-6a.5.5.5 0 0 1 0-.708z"/></svg>') no-repeat right 0.75rem center/8px 10px;
+}
+
+.manage-users-table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.manage-users-table th {
+    background-color: #174A90;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.manage-users-table td {
+    max-width: 150px; /* Adjust as needed */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.table-actions .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.btn-edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.manage-users-input {
+    border-radius: 5px;
+}
+
+.manage-users-error {
+    margin-top: 5px;
+}
+
+.manage-users-alert {
+    margin-top: 20px;
+}
+
+.manage-users-form .form-control {
+    border-radius: 5px;
+}
+
+.manage-users-button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.manage-users-add {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.manage-users-doctor-fields {
+    margin-top: 20px;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}

@@ -1,0 +1,7 @@
+.container-profile{
+    padding: 20px;
+    background-image: url('../../Assets/bggrey.png'); /* Update the path accordingly */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}

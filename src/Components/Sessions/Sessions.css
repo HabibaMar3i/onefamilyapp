@@ -1,0 +1,121 @@
+.sessions-container {
+    padding: 20px;
+    background-image: url('../../Assets/bg4.png'); /* Update the path accordingly */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.session-card {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.session-card:hover {
+    transform: translateY(-10px);
+}
+
+.session-card-header {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #174A90 !important;
+    color: #fff;
+}
+
+.session-card-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.session-card-info {
+    flex-grow: 1;
+}
+
+.session-card-title {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.session-card-subtitle {
+    color: #ccc;
+    margin: 0;
+}
+
+.session-card-experience {
+    color: #ccc;
+    margin: 0;
+}
+
+.session-card-body {
+    padding: 20px;
+    background-color: #eaeaea;
+}
+
+.session-card-meta {
+    margin-bottom: 15px;
+}
+
+.session-card-meta div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.session-card-meta i {
+    margin-right: 10px;
+    color: #174A90 !important;
+}
+
+.session-card-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #174A90 !important;
+}
+
+.session-card-footer {
+    padding: 15px 20px;
+    background-color: #eaeaea;
+    text-align: right;
+}
+
+.session-reserve-btn {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #174A90!important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.session-reserve-btn:hover {
+    background-color: #174990e0 !important;
+}
+
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center loader vertically */
+}
+
+.loading-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D85207;
+    margin-top: 20px;
+}
+
+.no-sessions-message {
+    font-size: 1.2em;
+    color: #777;
+}

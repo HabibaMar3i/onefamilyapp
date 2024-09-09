@@ -1,0 +1,5 @@
+.our-team{
+  background-image: url('../../Assets/bg4.png') !important; /* Update the path accordingly */
+  background-size: 1000px !important;
+  position: relative !important;
+}

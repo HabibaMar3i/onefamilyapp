@@ -1,0 +1,211 @@
+.products-container {
+    padding: 20px;
+    background-image: url('../../Assets/bg2.png'); /* Update the path accordingly */
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  
+  .product-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-container {
+    position: relative;
+    height: 280px; /* Set a specific height for the image container */
+    overflow: hidden;
+  }
+  
+  .card-img-top.products-imgs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down !important; /* Ensure the image covers the container */
+  }
+  
+  .filters {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters select {
+    width: 150px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border-radius: 20px !important;
+  }
+  
+  .filters select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-to-cart-icon {
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #e9722d;
+    transition: color 0.3s;
+    padding: 10px;
+  }
+  
+  .add-to-cart-icon:hover {
+    color: #D85207;
+  }
+  
+  
+  .card-footer {
+    background-color: #eaeaea;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px; /* Ensure all footers have the same height */
+  }
+  
+  .loader-container {
+    margin-top: 50px;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    border-radius: 20px !important;
+    height: 40px !important;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  
+  .card-product-title {
+    color: #D85207 !important;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .badge {
+    background-color: rgba(0, 0, 0, 0.619) !important;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cart-item-quantity-input {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .cart-item-remove-btn {
+    color: #D85207;
+    border-color: #D85207;
+  }
+  
+  .cart-item-remove-btn:hover {
+    background-color: #D85207;
+    color: #fff;
+  }
+  
+  .custom-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .btn-dark {
+    border: 2px;
+    border-style: solid;
+    border-color: #D85207;
+    background-color: #f45d06b6;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-dark:hover {
+    background-color: #a64306d4;
+  }
+  
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center loader vertically */
+  }
+  
+  .loading-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D85207;
+    margin-top: 20px;
+  }
+  
+  .card-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .card-img-container {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+  }
+  
+  .card-img-top.products-imgs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cart-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cart-item-quantity-input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .btn-cart {
+    margin: 0;
+    padding: 5px 10px;
+  }
+  

@@ -1,0 +1,124 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.latest-order-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 16px;
+}
+
+.latest-order-header {
+    background-color: #174A90;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
+.latest-order-body {
+    padding: 16px;
+}
+
+.order-summary {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.order-summary h6 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.order-details {
+    margin-bottom: 16px;
+}
+
+.sessions-section,
+.products-section,
+.events-section {
+    margin-bottom: 16px;
+}
+
+.sessions-list,
+.products-list,
+.events-list {
+    list-style: none;
+    padding: 0;
+}
+
+.session-item,
+.product-item,
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.session-item:last-child,
+.product-item:last-child,
+.event-item:last-child {
+    border-bottom: none;
+}
+
+.session-info,
+.product-info,
+.event-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.voucher-section {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.voucher-input {
+    flex: 1;
+    padding: 0;
+}
+
+.voucher-actions {
+    margin-left: 10px;
+}
+
+.btn-voucher {
+    height: 56px;
+    background-color: #174A90;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.btn-voucher:hover {
+    background-color: #174A90ca;
+}
+
+.actions-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.btn-confirm {
+    background-color: #174A90;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-confirm:hover {
+    background-color: #174A90ca;
+}

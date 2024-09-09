@@ -1,0 +1,111 @@
+.single-blog-container {
+    margin-top: 50px;
+    text-align: left !important;
+    background-image: url('../../Assets/bg2.png'); /* Update the path accordingly */
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px !important;
+}
+.single-blog-container h2{
+    color: #003366;
+    text-align: left;
+}
+.recent-blogs-title{
+    color: #003366;
+}
+
+.single-blog-container p{
+    color: #152330;
+    font-size: 16px;
+}
+
+.single-blog-header {
+    background-color: #fff5e1;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.single-blog-header h1 {
+    font-size: 32px;
+    color: #003366;
+}
+
+.blog-meta {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-meta span {
+    font-size: 14px;
+    color: #003366;
+}
+
+.blog-meta i {
+    margin-right: 5px;
+}
+
+.single-blog-image {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.single-blog img {
+    border-radius: 10px;
+}
+
+.autism-spectrum-img{
+    width: 500px !important;
+    height: 500px !important;
+} 
+
+.recent-blogs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-blogs-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.recent-blogs-list a {
+    font-size: 18px;
+    color: #003366;
+    text-decoration: none;
+}
+
+.recent-blogs-list a:hover {
+    text-decoration: underline;
+}
+
+.recent-blogs-list p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.recent-blogs-list i {
+    margin-right: 5px;
+}
+.custom-heading {
+    color: #D85207 !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    position: relative !important;
+    margin-bottom: 2rem !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    text-shadow: 1px 2px #174A90 !important;
+    font-size: 35px !important;
+  }
+  .single-blog img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
